@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .overflow {
+        height: 100px;
+        background-color: silver;
+        border: 1px solid black;
+
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+          overflow : 요소의 크기 이상으로 자식요소(내용)이 넘쳤을 때 처리
+          1) auto : 넘친 부분이 있는 경우만 잘라내고, 스크롤바를 이용해서 볼 수 있도록 처리
+          2) hidden : 넘친 부분을 잘라내고 보이지 않도록 함
+          3) scroll : 넘친 부분을 잘라내고, 스크롤바를 이용하여 볼 수 있도록 함(가로, 세로)
+          4) visible(기본값) : 넘친 부분을 자르지 않고 보여줌
+      -->
+    <p class="overflow">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque nostrum
+      exercitationem animi, quo enim natus itaque adipisci totam repellat magni
+      voluptates dolore porro. Repudiandae sunt veniam velit optio a atque
+      inventore reprehenderit? Iure nisi sed tempora at libero facere et natus
+      nostrum reiciendis. Qui, accusantium reiciendis voluptate tempora dolores,
+      magnam ipsam vitae temporibus aliquam optio accusamus obcaecati sit, omnis
+      nihil similique unde iure labore culpa dolorum quia! Provident assumenda,
+      distinctio corporis maiores non nemo deserunt sapiente eaque quam est
+      accusamus harum dolorum nobis, quibusdam exercitationem necessitatibus
+      quisquam nam libero pariatur temporibus mollitia sunt! Veniam officiis
+      laudantium quibusdam doloribus? Non, iusto!
+    </p>
+  </body>
+</html>
