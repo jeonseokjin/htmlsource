@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      img {
+        vertical-align: top;
+      }
+      .box {
+        border: 1px solid black;
+        position: relative;
+      }
+      .a {
+        background-color: blue;
+        left: 50px;
+        top: 50px;
+      }
+      .b {
+        background-color: red;
+        left: 50px;
+        top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- position : 배치 방법
+        1) static(기본) : 요소를 문서의 흐름에 맞게 배치
+        2) relative : 문서 흐름 따라 위치 지정
+                      top, left, right, bottom 값이 필요하고, 기준값은 요소가 처음에 배치된 자리가 기준
+        3) absolute :  원하는 위치에 배치 (부모 요소가 필요함 -relative 요소가 주로 부모가 됨)
+        4) fixed : 지정한 위치에 고정해 배치(화면에서 요소가 잘릴 수도 있음)
+    
+    -->
+    <div class="box a">
+      <img src="https://via.placeholder.com/200" alt="" />
+    </div>
+    <div class="box b">
+      <img src="https://via.placeholder.com/200" alt="" />
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum et beatae
+      eius nulla mollitia debitis ab recusandae est necessitatibus? Illum id
+      recusandae rem libero quibusdam veniam magni quia nostrum eos pariatur,
+      architecto sunt sint quaerat cum quisquam soluta nisi veritatis vero
+      minima, ducimus quae quasi omnis aliquid hic. At voluptatibus, qui
+      excepturi est id eaque cupiditate rerum dicta aperiam nulla magnam quasi,
+      fugit libero temporibus nam veniam voluptate dolore expedita incidunt
+      cumque quibusdam animi voluptates. Sapiente accusantium, saepe, ipsum ad
+      labore voluptates soluta hic inventore sed delectus, architecto obcaecati
+      dolor reprehenderit quae accusamus. Fugit blanditiis aliquam nulla
+      cupiditate nam ullam.
+    </p>
+  </body>
+</html>
